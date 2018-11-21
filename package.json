@@ -56,7 +56,10 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "test": "node scripts/test.js"
+    "test": "node scripts/test.js",
+    "rfep": "create-component-app --template rfep",
+    "rcep": "create-component-app --template rcep",
+    "rcredux": "create-component-app --template rcredux"
   },
   "eslintConfig": {
     "extends": "react-app"
