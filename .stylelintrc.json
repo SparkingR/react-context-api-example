@@ -1,0 +1,36 @@
+{
+  "extends": [
+    "stylelint-config-standard",
+    "stylelint-config-sass-guidelines",
+    "stylelint-config-css-modules",
+    "stylelint-config-recess-order"
+  ],
+  "plugins": ["stylelint-scss", "stylelint-order"],
+  "rules": {
+    "at-rule-no-unknown": [
+      true,
+      {
+        "ignoreAtRules": [
+          "extend",
+          "function",
+          "return",
+          "if",
+          "else",
+          "while",
+          "for",
+          "each",
+          "include",
+          "mixin",
+          "value",
+          "at-root",
+          "content",
+          "debug",
+          "warn",
+          "error"
+        ]
+      }
+    ],
+    "max-nesting-depth": 2,
+    "order/properties-alphabetical-order": null
+  }
+}

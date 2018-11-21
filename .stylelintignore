@@ -1,0 +1,7 @@
+node_modules
+public
+config
+scripts
+normalize.scss
+lib
+dist
